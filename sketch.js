@@ -50,6 +50,8 @@ function draw() {
   
   
   ellipseMode(RADIUS);
+  rotate(-90); 
+  noFill();
 
   push();
   stroke(255,0,0);
@@ -60,12 +62,12 @@ function draw() {
   push();
   stroke(0,0,255);
   strokeWeight(7);
-  //arc(0, 0, 160 ,160, 0, minAngle);
+  arc(0, 0, 160 ,160, 0, minAngle);
   pop();
 
   push();
   stroke(0,255,0);
   strokeWeight(7);
- //arc(0, 0, 170 ,170, 0, secAngle);
+ arc(0, 0, 170 ,170, 0, secAngle);
   pop();
 }
