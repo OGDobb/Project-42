@@ -21,7 +21,7 @@ function draw() {
 
   angleMode(DEGREES);
   console.log(hr);
-  hrAngle = map(hr, 0, hr%12, 0, 360);
+  hrAngle = map(hr%12, 0, 12, 0, 360);
   minAngle = map(min, 0, 60, 0, 360);
   secAngle = map(sec, 0, 60, 0, 360);
 
